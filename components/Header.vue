@@ -27,8 +27,17 @@
      padding: 0;
      margin: 0;
      display: flex;
-     align-content: space-around;
+     justify-content: space-around;
      align-items: center;
      width: 80%;
+ }
+
+ .nav-items a {
+     text-decoration: none;
+     color: black;
+ }
+ .nav-items a:hover,
+ .nav-items a:active{
+     color: white;
  }
 </style>
